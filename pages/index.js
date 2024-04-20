@@ -24,6 +24,15 @@ export default function Home() {
       <Labs />
       <Labs2 />
       <Footer />
+
+      <script id="bot" src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+      <df-messenger
+        chat-icon="https:&#x2F;&#x2F;encrypted-tbn0.gstatic.com&#x2F;images?q=tbn:ANd9GcR-FUzoAh9qvqyByAfPJdne9PUjPHehyjToNQ&ampusqp=CAU"
+        intent="WELCOME"
+        chat-title="Pathalogy_bot"
+        agent-id="4aa3acd3-b8c0-4a6b-8f96-a3faab47ffa2"
+        language-code="en"
+      ></df-messenger>
     </>
   );
 }

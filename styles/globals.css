@@ -305,6 +305,7 @@ html{
 }
 
 .aboutinnercontentleft {
+  
   flex: 1 1 40rem;
   padding-left: 30%;
 }
@@ -464,7 +465,12 @@ html{
   left: 5%;
 
 }
-
+#bot{
+  z-index: 5;
+}
+#doctor{
+  margin-left: 33%;
+}
 .docicons  {
 font-size: 3rem; /* Increase the font size */
 margin: 0.5rem;
@@ -670,7 +676,7 @@ cursor: pointer;
 
 #img2{
   border: 1px solid blanchedalmond;
-  margin-left: 20%;
+  margin-left: 40%;
   box-shadow: 4px 4px rgb(68, 67, 67);
 }
 .head1{
@@ -838,4 +844,32 @@ cursor: pointer;
   .contact-form {
     max-width: 90%;
   }
+}
+
+.layout1{
+  display: flex;
+  border: 2px solid black ;
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 60px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #f0ebeb;
+  z-index: 1;
+}
+
+#cbc{
+  margin-top: 0px;
+  margin-left: 10px ;
+  padding-bottom: 20px;
+  border-radius: 8px;
+}
+
+.para1{
+  font-size: medium;
+  margin-left: 10px;
+}
+#serviceheading{
+  margin-top: 100px;
 }

@@ -1,3 +1,67 @@
-.main{
-  background-color: blue;
+.technology {
+  padding: 3rem 7%;
+}
+
+.mainTechnology {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: -100px;
+}
+
+.innerTechnologys  {
+  flex: 1 1 300px;
+  padding: 3rem 3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.innerTechnology span {
+  width: 0;
+  height: 100%;
+  background-color: var(--maincolor);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.innerTechnology:hover span {
+  width: 100%;
+}
+
+.innerTechnology:hover i {
+  color: white;
+}
+
+.innerTechnology:hover h2 {
+  color: rgb(255, 255, 255);
+}
+
+.innerTechnology:hover p {
+  color: white;
+}
+
+.innerTechnology i {
+  font-size: 48px;
+  color: var(--maincolor);
+}
+
+.innerTechnology h2 {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+.innerTechnology p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding: 1rem 0;
 }

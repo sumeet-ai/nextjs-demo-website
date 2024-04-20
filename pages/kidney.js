@@ -38,6 +38,7 @@ const kidney = () => {
       <p className='p1'>•If your kidney problem is caused by a rare kidney disease </p>
       <p className='p1'>If you have any questions about why you need a kidney biopsy and how it could help treat your kidney problem, talk to your doctor</p><br/><br/><br/>
       
+      
     </div>
     <Footer />
     </div>

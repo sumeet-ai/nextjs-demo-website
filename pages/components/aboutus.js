@@ -8,7 +8,7 @@ const aboutus = () => {
 
             <div className="innermainabout">
                 <div className="aboutinnercontentleft">
-                    <Image src="/hero2.png" alt="" width={500} height={300} />
+                    <Image src="/board.png" alt="" width={500} height={300} />
                 </div>
 
                 <div className="aboutinnercontent">

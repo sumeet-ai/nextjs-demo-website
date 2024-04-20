@@ -9,8 +9,7 @@ const aboutus = () => {
             <Navbar />
             <h1 className='head1'>About us</h1><br /><br /><br />
             <div className='images'>
-                <Image id='img2' src="/kidney_img1.jpg" alt="Description of the image" width={300} height={200} /><br /><br /><br />
-                <Image id='img2' src="/kidney_img1.jpg" alt="Description of the image" width={300} height={200} /><br /><br /><br />
+                <Image id='img2' src="/aboutus.jpg" alt="Description of the image" width={250} height={300} /><br /><br /><br />
             </div>
             <div className='main1'>
             <h1 className='head1'>Pioneers in Pathology since 1963</h1><br /><br /><br />

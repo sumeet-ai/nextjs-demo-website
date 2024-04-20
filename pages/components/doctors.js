@@ -9,20 +9,7 @@ const doctors = () => {
       </div>
 
       <div className="maininnerdoctor">
-        <div className="docposter">
-          <div className="docicons">
-            <FaShare />
-            <FaEye />
-            <FaHeart />
-          </div>
-          {/* Replace image tag with Next.js Image component */}
-          <Image src="/hero2.png" alt="" width={400} height={300} />
-
-          <div className="docdetails">
-            <h2>Mr Sumeet</h2>
-            <FaLinkedin />
-          </div>
-        </div>
+        
 
         <div className="docposter">
           <div className="docicons">
@@ -30,11 +17,11 @@ const doctors = () => {
             <FaEye />
             <FaHeart />
           </div>
-          {/* Replace image tag with Next.js Image component */}
-          <Image src="/hero2.png" alt="" width={400} height={300} />
+          
+          <Image id="doctor" src="/aboutus.jpg" alt="" width={400} height={300} />
 
           <div className="docdetails">
-            <h2>Mr Arnav</h2>
+            <h2>Dr.Anish .A. Dekhne</h2>
             <FaLinkedin />
           </div>
         </div>
