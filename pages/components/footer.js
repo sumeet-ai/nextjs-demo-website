@@ -11,13 +11,13 @@ const MainFooter = () => {
             <Link href="/">
               Home
             </Link>
-            <Link href="/aboutus">
-              About Us
-            </Link>
-            <Link href="/">
+            <Link href="/services">
               Services
             </Link>
-            <Link href="/">
+            <Link href="/aboutus">
+              About us
+            </Link>
+            <Link href="/contactus">
               Contact Us
             </Link>
             Developed by Students of WIT, Solapur

@@ -27,7 +27,7 @@ const labs = () => {
         <div className="docposter">
           
           {/* Replace image tag with Next.js Image component */}
-          <Image src="/lab6.jpg" alt="" width={400} height={300} />
+          <Image src="/doct1.jpg" alt="" width={400} height={300} />
 
           
         </div>

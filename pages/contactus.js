@@ -7,9 +7,22 @@ import Footer from './components/footer';
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("xoqgplzz");
 
-  if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+  function redirectToPage() {
+    if (state.succeeded) {
+      // Redirect to index.js
+      window.location.href = '/'; // Replace 'index.js' with the actual URL of your index page
+    }
   }
+  
+  if (state.succeeded) {
+    alert("Submitted Successfully.");
+    redirectToPage();
+  }
+  
+
+ // if (state.succeeded) {
+ //   return alert("Submitted Successfully.");
+ // }
 
   return (
     <div id='about'>
@@ -42,13 +55,16 @@ const ContactForm = () => {
             field="message"
             errors={state.errors}
           />
-          <button type="submit" disabled={state.submitting}>
+          <button type="submit" onClick={redirectToPage} disabled={state.submitting} >
             Submit
           </button>
         </form>
       </div>
       <Footer />
     </div>
+
+    
+
   );
 };
 

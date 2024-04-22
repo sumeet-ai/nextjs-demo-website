@@ -4,7 +4,7 @@ const servicelayout = ({ content }) => {
   return (
     <>
     
-      <h1 className='serviceheading'>Services related to blood test</h1>
+      
       <div className='layout1'>
         <Image id='cbc' src="/CBC.jpeg" alt="Description of the image" width={200} height={200} /><br />
         <p className='para1'><b>CBC Test (Blood Test):</b> <br /><br />The Complete Blood Count (CBC) test is a fundamental diagnostic tool used to assess various components of blood. It provides valuable insights into a person's overall health by measuring different types of blood cells, including red blood cells (RBCs), white blood cells (WBCs), and platelets.<br /><br />
@@ -76,6 +76,15 @@ const servicelayout = ({ content }) => {
         The Urine for Pregnancy (HCG) test is a common method used to detect the presence of human chorionic gonadotropin (HCG) hormone in urine samples. HCG is produced by the placenta during pregnancy and is detectable in the urine shortly after implantation occurs, making it a reliable indicator of pregnancy.   <br /><br />
         This test is often performed at home using over-the-counter pregnancy test kits, which involve collecting a urine sample and applying it to a test strip or cassette. A positive result indicates the presence of HCG in the urine, confirming pregnancy, while a negative result suggests its absence.   <br /><br />
         Urine for Pregnancy (HCG) tests are convenient, non-invasive, and easily accessible, allowing individuals to quickly determine their pregnancy status in the privacy of their homes. These tests are highly accurate when used according to instructions and are typically the first step in confirming pregnancy before seeking medical confirmation.</p><br />
+      </div>
+
+      <div className='layout1'>
+        <div className='contents'>
+          <ul className='contents'>
+            <li>guys</li>
+            <li>guys</li>
+          </ul>
+        </div>
       </div>
     </>
   )

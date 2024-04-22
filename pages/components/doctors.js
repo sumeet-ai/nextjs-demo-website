@@ -5,7 +5,7 @@ const doctors = () => {
   return (
     <div className="maindoctors">
       <div className="doctorsheading">
-        <h2>Our doctors</h2>
+        <h2>Our doctor</h2>
       </div>
 
       <div className="maininnerdoctor">
@@ -13,9 +13,9 @@ const doctors = () => {
 
         <div className="docposter">
           <div className="docicons">
-            <FaShare />
+            
             <FaEye />
-            <FaHeart />
+            
           </div>
           
           <Image id="doctor" src="/aboutus.jpg" alt="" width={400} height={300} />
