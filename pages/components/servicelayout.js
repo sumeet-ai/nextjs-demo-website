@@ -78,14 +78,7 @@ const servicelayout = ({ content }) => {
         Urine for Pregnancy (HCG) tests are convenient, non-invasive, and easily accessible, allowing individuals to quickly determine their pregnancy status in the privacy of their homes. These tests are highly accurate when used according to instructions and are typically the first step in confirming pregnancy before seeking medical confirmation.</p><br />
       </div>
 
-      <div className='layout1'>
-        <div className='contents'>
-          <ul className='contents'>
-            <li>guys</li>
-            <li>guys</li>
-          </ul>
-        </div>
-      </div>
+      
     </>
   )
 }
